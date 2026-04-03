@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No installation needed"
+
+  build:
+    commands:
+      - echo "Building static website (nothing to compile)"
+
+artifacts:
+  files:
+    - '**/*'
